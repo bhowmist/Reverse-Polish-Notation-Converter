@@ -175,20 +175,3 @@ char *RPN(char *inp, int l)
       }
      return s; 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-          
-    
