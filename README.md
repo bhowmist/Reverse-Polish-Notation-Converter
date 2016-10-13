@@ -10,9 +10,9 @@ the intended order in which operations are to be performed.
 below by descending order. For example, because division has higher precedence than
 multiplication, a*b/c is equivalent to a*(b/c).
 
-Precedence        Name        Operator
+Precedence         Name        Operator
 
-1                Exponent          ^
+1                 Exponent         ^
 
 2                Division          /
 
@@ -35,6 +35,7 @@ RPN Notation Rules:
 ● The operators follow their operands. For example: ab+
 ● Valid operators are ^, /, *, -, +
 ● Valid operands are only lowercase letters: a, b, ..., z
+
 -----------------------------------------------------------------------------------------------------------------------------
 Examples:
 1. Infix to RPN: a+b-c becomes abc-+
