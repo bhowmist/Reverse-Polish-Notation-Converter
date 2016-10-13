@@ -33,7 +33,10 @@ RPN Notation Rules:
 -----------------------------------------------------------------------------------------------------------------------------
 Examples:
 1. Infix to RPN: a+b-c becomes abc-+
+
 2. Infix to RPN: (a+b)-c becomes ab+c-
+
 3. Infix to RPN: l/m^n*o-p and ((l/(m^n))*o)-p are equivalent expressions that become
 lmn^/o*p-
+
 4. Infix to RPN: ((v/w)^x)*(y-z) becomes vw/x^yz-*
