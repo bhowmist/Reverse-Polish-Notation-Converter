@@ -11,10 +11,15 @@ below by descending order. For example, because division has higher precedence t
 multiplication, a*b/c is equivalent to a*(b/c).
 
 Precedence        Name        Operator
+
 1                Exponent          ^
+
 2                Division          /
+
 3               Multiplication     *
+
 4                Subtraction       -
+
 5                Addition          +
 
 Operators with equal precedence associate from left to right. For example, a^b^c is
@@ -40,3 +45,5 @@ Examples:
 lmn^/o*p-
 
 4. Infix to RPN: ((v/w)^x)*(y-z) becomes vw/x^yz-*
+
+
